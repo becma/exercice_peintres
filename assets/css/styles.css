@@ -1,0 +1,94 @@
+body {
+    background-color: lightblue;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lora', serif;
+}
+
+header, footer {
+    background-color: midnightblue;
+    color: white;
+    padding: 50px;
+    text-align: center;
+}
+
+header {
+    padding: 50px;
+}
+
+header h1 {
+    text-transform: uppercase;
+}
+
+footer {
+    padding: 15px;
+}
+
+footer p {
+    margin: 0;
+}
+
+.painters-cards {
+    background-color: white;
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    margin: 30px;
+    padding: 30px;
+    flex-grow: 1;
+}
+
+.painters-cards section {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding: 20px;
+}
+
+main section h2, main section h3, main section p {
+    margin: 0;
+}
+
+main section h2 {
+    font-style: italic;
+}
+
+main section .section-header {
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+main section figure {
+    align-self: center;
+    margin: 0;
+    padding: 30px;
+}
+
+main section figure img {
+    max-width: 200px;
+}
+
+main section figure figcaption {
+    text-align: center;
+    font-style: italic;
+}
+
+form {
+    background-color: white;
+    margin: 25px;
+    padding: 30px;
+}
+
+form label {
+    display: block;
+}
+
+form label, form input, form button {
+    padding: 5px;
+    margin: 5px;
+}
