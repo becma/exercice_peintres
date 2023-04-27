@@ -4,12 +4,12 @@
 ?>
 
 <?php
-    $ville = $_REQUEST["ajoutVille"];
+    $ville = $_REQUEST['retraitVille'];
 
-    $query = "INSERT INTO pays VALUES (DEFAULT, '$ville')";
+    $query = "DELETE FROM pays WHERE Ville='$ville';";
 
     if (mysqli_query($conn, $query)) {
-        echo "$ville a bien été ajoutée à la base de données.";
+        echo "$ville a bien été retirée de la base de données.";
     } else {
         echo "Error: " . mysqli_error($conn);
     }

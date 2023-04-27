@@ -57,6 +57,12 @@
             <input type="text" id="villeAjout" name="ajoutVille">
             <button type="submit">Soumettre</button>
         </form>
+
+        <form action="form_remove.php" method="POST">
+            <label for="villeRetrait">Ville à retirer</label>
+            <input type="text" id="villeRetrait" name="retraitVille">
+            <button type="submit">Soumettre</button>
+        </form>
     </main>
 </body>
 </html>
